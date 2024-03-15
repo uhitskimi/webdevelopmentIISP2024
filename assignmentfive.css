@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: brown;
+    max-width: 100%;
+  }
+  
+  img {
+    max-width: 40%;
+    margin-left: 4rem;
+  }
+  
+  .border {
+    border: 2px solid white;
+    background-color: white;
+    padding: 1.5rem;
+  }
+  
+  .border h1 {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .square-containers {
+    border: 2px solid black;
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-top: 5rem;
+  }
+  
+  .square-item {
+    border: 6rem solid white;
+    background-color: white;
+    margin: 0 auto;
+  }
+
+  .square-item p {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  .oliver {
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 15px;
+    padding: 4rem;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 7rem;
+    margin-bottom: 6rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .oliver-content {
+    flex-grow: 1;
+    padding: 0 10px;
+  }
+
+  .oliver-content h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  figcaption { 
+    padding-left: 5rem;
+  }
+
+  .oliver img {
+    border-radius: 15px;
+    max-width: 200px;
+  }
+  
+  .extra-border {
+    border: 2px solid white;
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .extra-border h1 {
+    text-align: center;
+    font-size: 48px;
+  }
+  
+  .pet-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+  }
+
+  .pet-container p {
+    text-align: center;
+  }
+
+  .pet-item p {
+    text-align: center;
+    color: white;
+    padding: 4rem;
+    margin-top: 0.5rem;
+  }
+  
+  .pet-container img {
+    max-width: 200px;
+  }
+  .the-button {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 25%;
+    margin: 0 auto;
+    padding: .5rem;
+  }
+  
+  .the-button {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  .the-button h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #switch {
+    margin-left: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }

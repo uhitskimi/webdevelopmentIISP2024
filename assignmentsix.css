@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#img-one, #img-two, #img-three, #img-four, #img-five {
+    height: 1000px;
+    max-width: 100%;
+}
+
+#img-one {
+    background: url('img/IMG_0659.JPG') no-repeat fixed center;
+    background-size: cover;
+}
+
+#img-two {
+    background: url('img/IMG_0623.JPG') no-repeat fixed center;
+    background-size: cover;
+}
+
+#img-three {
+    background: url('/img/IMG_0632\ \(3\).JPG') no-repeat fixed center;
+    background-size: cover;
+}
+
+#img-four {
+    background: url('/img/IMG_0631\ \(3\).JPG') no-repeat fixed center;
+    background-size: cover;
+}
+
+#img-five {
+    background: url('/img/IMG_0660\ \(1\).JPG') no-repeat fixed center;
+    background-size: cover;
+}
+
+#img-one h1 {
+    position: absolute;
+    color: white;
+    font-size: 72px;
+    margin-top: 8rem;
+    margin-left: 23rem; 
+}
+
+section {
+    padding: 2rem;
+    background-color: #1e331f;
+    animation: border 15s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes border {
+    from {background: #1e331f;}
+    to {background: #6d8a6f;}
+}
+
+section h1 {
+    color: #6d8a6f;
+    margin-bottom: 1rem;
+    animation: borderHeader 15s;
+    animation-fill-mode: forwards;
+    background-color: #6d8a6f;
+    padding: 1rem;
+}
+
+@keyframes borderHeader {
+    from {background: #6d8a6f;}
+    to {background: #1e331f;}
+}
+
+section p {
+    color: white;
+    line-height: 1.5rem;
+}
+
+footer {
+    background-color: #1e331f;
+    text-align: center;
+    color: white;
+    padding-bottom: 1.5rem;
+    font-size: 24px;
+    animation: footer 15s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes footer {
+    from {background-color: #12331f;}
+    to {background-color: #6d8a6f;}
+}
+
+@media all and (min-width: 768px) {
+
+} /* closes 768px */
+
+@media all and (min-width: 1024px) {
+
+} /* closes 1024px */
